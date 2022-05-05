@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Web component example</title>
+   
+    <style>
+        h3{
+            color: purple
+        }
+    </style>
+</head>
+<body>
+    <h3>Hello world</h3>
+    <user-card name="MidhunBalan" avatar="https://randomuser.me/api/portraits/men/1.jpg">
+        <div slot="email">mm@gmail.com</div>
+        <div slot="phone">12345</div>
+    </user-card>
+    <user-card name="Sree" avatar="https://randomuser.me/api/portraits/women/1.jpg">
+        <div slot="email">sree@gmail.com</div>
+        <div slot="phone">3333-3333-555</div>
+    </user-card>
+    <!-- <user-card></user-card> -->
+    <script src='app.js'></script>
+</body>
+</html>
